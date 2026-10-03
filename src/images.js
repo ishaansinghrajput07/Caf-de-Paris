@@ -1,0 +1,2 @@
+const names = ['hero','bar','dishes','night','hall','terrace','thali','pavilion','burger','pasta','friends','sandwich','donuts','breakfast','latte','latte2','cappuccino','glasshouse','megaburger','pastries','croissant','display','dark','garden','garden2','counter','interior','lattice','patio','roll','mocha','menu1','menu2','menu3','heritage'];
+export const img = Object.fromEntries(names.map((n) => [n, `/images/${n}.webp`]));
